@@ -27,7 +27,6 @@
 					<tr>
 						<th>Score</th>
 						<th>Name</th>
-						<th>Email</th>
 						<th>Peer Group</th>
 					</tr>
 				</thead>
@@ -36,7 +35,6 @@
 					<tr>
 						<td><span class="badge">{{{ $entry->score }}}</span></td>
 						<td>{{{ $entry->fullName() }}}</td>
-						<td>{{{ $entry->email }}}</td>
 						<td>{{{ $entry->peer_group }}}</td>
 					</tr>
 					@endforeach
