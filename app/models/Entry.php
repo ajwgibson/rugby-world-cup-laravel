@@ -104,7 +104,7 @@ class Entry extends Eloquent {
     	'England'    => 'England', 
     	'Wales'      => 'Wales', 
         'Fiji'       => 'Fiji',
-    	'Paraguay'   => 'Paraguay',
+    	'Uruguay'    => 'Uruguay',
 	);
     public static $pool_b_teams = array(
     	'South Africa' => 'South Africa', 
